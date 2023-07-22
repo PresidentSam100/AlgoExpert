@@ -1,6 +1,7 @@
 import java.util.*;
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
+// n is the size of array
 // Solution 1: Brute Force
 class Program {
   public static int[] twoNumberSum(int[] array, int targetSum) {
