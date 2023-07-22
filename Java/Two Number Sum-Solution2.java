@@ -12,9 +12,11 @@ class Program {
         return new int[]{num, targetSum - num};
       }
       else {
+        // Add num to table if no pair exists
         table.add(num);
       }
     }
+    // No such two number sum
     return new int[0];
   }
 }
