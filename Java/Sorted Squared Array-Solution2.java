@@ -1,6 +1,7 @@
 import java.util.*;
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+// n is the size of array
 // Solution 2: Two Pointer and Square
 class Program {
 
