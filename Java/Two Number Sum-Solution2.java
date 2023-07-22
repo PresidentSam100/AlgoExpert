@@ -1,6 +1,7 @@
 import java.util.*;
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+// n is the size of array
 // Solution 2: Hashing
 class Program {
   public static int[] twoNumberSum(int[] array, int targetSum) {
