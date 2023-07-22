@@ -1,6 +1,7 @@
 import java.util.*;
 // Time Complexity: O(nlogn)
 // Space Complexity: O(n)
+// n is the size of array
 // Solution 1: Square and Sort
 class Program {
 
