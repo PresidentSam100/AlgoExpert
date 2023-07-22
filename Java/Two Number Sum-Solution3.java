@@ -1,6 +1,7 @@
 import java.util.*;
 // Time Complexity: O(nlogn)
 // Space Complexity: O(1)
+// n is the size of array
 // Solution 3: Sort and Two Pointers
 class Program {
   public static int[] twoNumberSum(int[] array, int targetSum) {
