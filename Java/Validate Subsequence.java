@@ -1,6 +1,7 @@
 import java.util.*;
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+// n is the size of array
 // Solution: Loop and Check
 class Program {
   public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
