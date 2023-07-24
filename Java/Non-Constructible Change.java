@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(nlogn)
+// Space Complexity: O(1)
+// n is the size of array
+// Solution: Sum and Check
 class Program {
 
   public int nonConstructibleChange(int[] coins) {
