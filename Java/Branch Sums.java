@@ -2,7 +2,7 @@ import java.util.*;
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 // n is the number of nodes in the Binary Tree
-// Solution: Search BST for leaves
+// Solution: Binary Tree leaves
 class Program {
   // This is the class of the input root. Do not edit it.
   public static class BinaryTree {
