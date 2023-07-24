@@ -3,6 +3,7 @@ import java.util.*;
 // Worst Time Complexity: O(n)
 // Average Space Complexity: O(log(n))
 // Worst Space Complexity: O(n)
+// n is the number of nodes in the BST
 // Solution: Search BST w/ Recursion
 class Program {
   public static int findClosestValueInBst(BST tree, int target) {
