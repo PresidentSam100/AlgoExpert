@@ -3,7 +3,7 @@ import java.util.*;
 // Average Space Complexity: O(h)
 // n is the number of nodes in the Binary Tree
 // h is the height of the Binary Tree
-// Solution: Double Loop and Transpose Operation
+// Solution: Children Recursion
 class Program {
 
   public static int nodeDepths(BinaryTree root) {
