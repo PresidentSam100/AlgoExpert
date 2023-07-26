@@ -1,5 +1,5 @@
 import java.util.*;
-// Time Complexity: O(nlogn)
+// Time Complexity: O(nlog(n))
 // Space Complexity: O(n)
 // n is the size of array
 // Solution 1: Square and Sort
