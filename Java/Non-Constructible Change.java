@@ -1,5 +1,5 @@
 import java.util.*;
-// Time Complexity: O(nlogn)
+// Time Complexity: O(nlog(n))
 // Space Complexity: O(1)
 // n is the size of array
 // Solution: Sum and Check
