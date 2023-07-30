@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+// n is total number of elements in the array
+// Solution 2: Two Pointer and Square
 class Program {
   public static List<Integer> spiralTraverse(int[][] array) {
     int n = array.length;
