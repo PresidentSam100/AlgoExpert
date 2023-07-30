@@ -1,6 +1,6 @@
 import java.util.*;
 // Time Complexity: O(n^2)
-// Space Complexity: O(1)
+// Space Complexity: O(n)
 // n is the length of the array
 // Solution 1: Brute Force
 class Program {
