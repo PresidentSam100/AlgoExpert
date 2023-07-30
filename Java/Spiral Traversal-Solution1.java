@@ -1,7 +1,8 @@
 import java.util.*;
-// Time Complexity: O(n)
-// Space Complexity: O(n)
-// n is total number of elements in the array
+// Time Complexity: O(nm)
+// Space Complexity: O(nm)
+// n is the number of rows in array
+// m is the number of columns in array
 // Solution 1: Logic No Recursion
 class Program {
   public static List<Integer> spiralTraverse(int[][] array) {
