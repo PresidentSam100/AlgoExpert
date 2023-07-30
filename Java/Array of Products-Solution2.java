@@ -9,8 +9,8 @@ class Program {
     int[] left = new int[n];
     int[] right = new int[n];
     int[] products = new int[n];
-    Arrays.fill(left, 1);
-    Arrays.fill(right, 1);
+    left[0] = 1;
+    right[n - 1] = 1;
     // Left products
     for (int i = 1; i < n; i++) {
       left[i] = array[i - 1] * left[i - 1];
