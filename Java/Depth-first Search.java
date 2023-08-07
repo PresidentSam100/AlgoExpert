@@ -1,5 +1,9 @@
 import java.util.*;
-
+// Time Complexity: O(v + e)
+// Space Complexity: O(v)
+// v is the number of vertices
+// e is the number of edges
+// Solution: Classic DFS
 class Program {
   // Do not edit the class below except
   // for the depthFirstSearch method.
