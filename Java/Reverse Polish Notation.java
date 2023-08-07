@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+// n is the number of tokens
+// Solution: Classic Math and RPN :)
 class Program {
   public int reversePolishNotation(String[] tokens) {
     Stack<Integer> stack = new Stack<>();
