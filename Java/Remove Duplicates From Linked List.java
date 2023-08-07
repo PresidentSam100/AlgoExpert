@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// n is the number of nodes in the LinkedList
+// Solution: Iterate and Check for Duplicates
 class Program {
   // This is an input class. Do not edit.
   public static class LinkedList {
