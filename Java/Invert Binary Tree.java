@@ -1,5 +1,9 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(d)
+// n is the number of nodes in the Binary Tree
+// d is the depth of the Binary Tree
+// Solution: Swap and Child
 class Program {
   public static void invertBinaryTree(BinaryTree tree) {
     if (tree != null) {
