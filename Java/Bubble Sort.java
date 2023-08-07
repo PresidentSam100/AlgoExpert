@@ -5,6 +5,8 @@ import java.util.*;
 // Best Space Complexity: O(1)
 // Average Space Complexity: O(1)
 // Worst Space Complexity: O(1)
+// n is the length of the array
+// Solution: Classic Bubble Sort :D
 class Program {
   public static int[] bubbleSort(int[] array) {
     int n = array.length;
