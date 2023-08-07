@@ -1,5 +1,9 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(h)
+// n is the number of nodes in the smaller Binary Tree
+// h is the height of the shorter Binary Tree
+// Solution: Merge and Traverse and Repeat
 class Program {
   // This is an input class. Do not edit.
   static class BinaryTree {
