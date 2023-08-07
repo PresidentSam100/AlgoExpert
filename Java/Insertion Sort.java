@@ -1,7 +1,7 @@
 import java.util.*;
 // Worst Time Complexity: O(n^2)
 // Average Time Complexity: O(n^2)
-// Best Time Complexity: O(n)
+// Best Time Complexity: O(n) - If array is already sorted
 // Worst Space Complexity: O(1)
 // Average Space Complexity: O(1)
 // Best Space Complexity: O(1)
@@ -13,6 +13,7 @@ class Program {
     for (int i = 1; i < n; i++) {
       int j = i;
       while (j > 0 && array[j] < array[j - 1]) {
+        // Swap
         int temp = array[j];
         array[j] = array[j - 1];
         array[j - 1] = temp;
