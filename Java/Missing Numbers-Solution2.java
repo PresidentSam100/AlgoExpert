@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// n is the size of nums array
+// Solution 2: Average of Missing and Find
 class Program {
   public int[] missingNumbers(int[] nums) {
     int sum = 0;
