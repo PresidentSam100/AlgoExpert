@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+// n is the size of nums array
+// Solution 1: Find existing numbers and swap
 class Program {
   public int[] missingNumbers(int[] nums) {
     int n = nums.length;
