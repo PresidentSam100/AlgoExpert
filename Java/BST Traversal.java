@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+// n is the number of nodes in the BST
+// Solution: Classic BST Traversals
 class Program {
   public static List<Integer> inOrderTraverse(BST tree, List<Integer> array) {
     if (tree != null) {
