@@ -3,7 +3,7 @@ import java.util.*;
 // Space Complexity: O(m)
 // n is the number of strings
 // m is the length of the longest string
-// Solution: 
+// Solution: Find Shortest and Compare
 class Program {
   public String[] commonCharacters(String[] strings) {
     ArrayList<Character> arr = new ArrayList<>();
