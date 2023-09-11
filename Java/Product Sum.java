@@ -1,5 +1,9 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(d)
+// n is the number of elements including nested elements
+// d is the greatest depth of the nested elements
+// Solution: Recursion
 class Program {
   // Tip: You can use `element instanceof ArrayList` to check whether an item
   // is an array or an integer.
