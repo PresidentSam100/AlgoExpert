@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// n is the length of the array
+// Solution: Loop and Compare Space
 class Program {
   public int bestSeat(int[] seats) {
     int index = -1;
