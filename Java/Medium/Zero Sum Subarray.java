@@ -1,5 +1,8 @@
 import java.util.*;
-
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+// n is the size of nums array
+// Solution: Check for Same Prefix Sums
 class Program {
   public boolean zeroSumSubarray(int[] nums) {
     int n = nums.length;
