@@ -11,9 +11,11 @@ class Program {
     int space = 1;
     for (int i = 0; i < seats.length; i++) {
       if (seats[i] == 1) {
+        // Update Left and Right Boundaries
         left = right;
         right = i;
         if (right - left > space) {
+          // Update seat to sit at if greater bounds
           index = (right + left) / 2;
           space = right - left;
         }
